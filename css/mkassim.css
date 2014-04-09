@@ -1,0 +1,105 @@
+@font-face
+{
+	font-family: Aliquam;
+	src: url('/fonts/Aliquam.ttf');
+}
+
+@media only screen
+{
+	html {
+		overflow: auto;
+	}
+	
+	/* Custom webkit scrollbar */
+	::-webkit-scrollbar {
+		width: 12px;
+		height: 12px;
+	}
+
+	::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+	}
+
+	::-webkit-scrollbar-thumb {
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		background: rgba(0,100,0,0.8); 
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+	}
+
+	::-webkit-scrollbar-thumb:window-inactive {
+		background: rgba(0,100,0,0.4); 
+	}
+	
+	body
+	{
+		margin: 0 auto;
+		min-height: 125px;
+		width: 1000px;
+		background-color: gainsboro;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	}
+
+	header
+	{
+		margin-top: 10px;
+		text-align:center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 850px;
+		padding-bottom: 30px;
+	}
+	
+	.header_container
+	{
+		width: 100%;
+	}
+	
+	.footer-container
+	{
+		margin-top: 20px;
+		font-family: Aliquam;
+		text-align: center;
+	}
+	
+	hr.headerhr
+	{
+		width: 1000px;
+		position: absolute;
+		top: 109px;
+		padding: 0;
+		border: none;
+		border-top: medium double white;
+		color: white;
+		text-align: center;
+		z-index: -1;
+	}
+	
+	.subheading
+	{
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		color: darkgreen;
+	}
+
+	.title 
+	{
+		display:block;
+		text-decoration:none;
+		color: darkgreen;
+		font-family: Aliquam;
+		font-size: 250%;
+		font-weight: normal;
+	}
+	
+	.logo
+	{
+		border-radius: 100%;
+		background-color: green;
+		color: white;
+		font-family: Aliquam;
+		font-size: 25pt;
+		opacity:0.8;
+	}
+}
