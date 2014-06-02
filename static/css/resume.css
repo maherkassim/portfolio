@@ -103,6 +103,7 @@
 	a.linktool
 	{
 		font-weight:bold;
+                font-size: 10pt;
 		color: darkgreen;
 		text-decoration:underline;
 	}
